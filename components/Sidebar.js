@@ -11,35 +11,35 @@ const Sidebar = () => {
         className='mt-10'
       />
 
-      <div className='border-x-4 border-white h-96'></div>
+      <div className='border-x-4 border-white h-80'></div>
 
-      <div className='flex flex-col justify-around items-center space-y-10 mb-10'>
+      <div className='flex flex-col justify-around items-center space-y-10 mb-12'>
         <Image
           src={"/twitter.png"}
           alt='twitter'
-          width={"70"}
-          height={"70"}
+          width={"50"}
+          height={"50"}
           className=''
         />
         <Image
           src={"/facebook.png"}
           alt='facebook'
-          width={"25"}
-          height={"25"}
+          width={"20"}
+          height={"20"}
           className=''
         />
         <Image
           src={"/instagram.png"}
           alt='instagram'
-          width={"50"}
-          height={"50"}
+          width={"35"}
+          height={"35"}
           className=''
         />
         <Image
           src={"/youtube.png"}
           alt='youtube'
-          width={"50"}
-          height={"50"}
+          width={"35"}
+          height={"35"}
           className=''
         />
       </div>

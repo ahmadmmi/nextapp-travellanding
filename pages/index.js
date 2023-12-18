@@ -19,9 +19,9 @@ export default function Home() {
       {/* background gradient */}
       <div className='flex bg-gradient-to-t from-[#014755]'>
         <Sidebar />
-        <div className='flex flex-col w-full '>
+        <div className='flex flex-col w-11/12'>
           <Navbar />
-          <Content />
+          {/* <Content /> */}
         </div>
       </div>
     </main>
