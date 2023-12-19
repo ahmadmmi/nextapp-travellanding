@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className='flex items-center h-full mb-16'>
+    <div className='flex flex-col md:flex-row items-center h-full mb-16'>
       {/* left content */}
-      <div className='flex flex-col w-2/5 h-full justify-between items-center pl-20'>
-        <div className='flex justify-end w-full mr-10'>
+      <div className='flex flex-col w-full md:w-2/5 h-full justify-between items-center pl-20'>
+        <div className='hidden md:flex justify-end w-full mr-10'>
           <div className='flex-col space-y-6'>
             <div className='flex space-x-6'>
               <div className='border rounded-full w-2 h-2 bg-white'></div>
@@ -72,8 +72,8 @@ const Content = () => {
         </div>
       </div>
       {/* right content */}
-      <div className='flex flex-col w-3/5 h-full justify-between pl-20 pr-20'>
-        <div className='flex justify-end items-center space-x-2 mt-32'>
+      <div className='flex flex-col w-full md:w-3/5 h-full justify-between pl-20 pr-20'>
+        <div className='hidden md:flex justify-end items-center space-x-2 mt-32'>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
