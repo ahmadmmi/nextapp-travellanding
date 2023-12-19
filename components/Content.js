@@ -2,39 +2,39 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className='flex w-full h-full items-center'>
+    <div className='flex items-center h-full'>
       {/* left content */}
-      <div className='flex flex-col w-2/5 h-full justify-between items-center pl-20 pb-40'>
-        <div className='flex justify-end w-full mt-10 mr-10'>
-          <div className='flex-col space-y-8'>
-            <div className='flex space-x-8'>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
+      <div className='flex flex-col w-2/5 h-full justify-between items-center pl-20'>
+        <div className='flex justify-end w-full mr-10'>
+          <div className='flex-col space-y-6'>
+            <div className='flex space-x-6'>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
             </div>
-            <div className='flex space-x-8'>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
+            <div className='flex space-x-6'>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
             </div>
-            <div className='flex space-x-8'>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
+            <div className='flex space-x-6'>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
             </div>
-            <div className='flex space-x-8 '>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
-              <div className='border rounded-full w-3 h-3 bg-white'></div>
+            <div className='flex space-x-6'>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
+              <div className='border rounded-full w-2 h-2 bg-white'></div>
             </div>
           </div>
         </div>
         <div className='flex justify-start w-full'>
-          <p className='text-9xl font-bold'>EXPLORE DREAM</p>
+          <p className='text-6xl font-bold'>EXPLORE DREAM</p>
         </div>
         <div className='flex justify-start w-full'>
           <p className='text-6xl font-semibold'>DESTINATION</p>
@@ -72,8 +72,8 @@ const Content = () => {
         </div>
       </div>
       {/* right content */}
-      <div className='flex flex-col w-3/5 h-full justify-between pl-20 pr-20 pb-40'>
-        <div className='flex justify-end items-end mr-6 mb-14 space-x-2 h-[220px]'>
+      <div className='flex flex-col w-3/5 h-full justify-between items-center pl-20 pr-20'>
+        <div className='flex justify-end items-end mr-6 mb-14 space-x-2 h-[100px]'>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
@@ -82,8 +82,8 @@ const Content = () => {
         </div>
 
         {/* post */}
-        <div className='flex justify-between'>
-          <div className='flex flex-col w-[365px] h-[700px] justify-between bg-white'>
+        <div className='flex justify-between space-x-2'>
+          <div className='flex flex-col w-[200px] h-[500px] justify-between bg-white'>
             <Image
               src={"/postimage.jpg"}
               alt='postimage'
@@ -113,7 +113,7 @@ const Content = () => {
               </div>
             </button>
           </div>
-          <div className='flex flex-col w-[365px] h-[700px] justify-between bg-white'>
+          <div className='flex flex-col w-[200px] h-[500px] justify-between bg-white'>
             <Image
               src={"/postimage.jpg"}
               alt='postimage'
@@ -143,7 +143,7 @@ const Content = () => {
               </div>
             </button>
           </div>
-          <div className='flex flex-col w-[365px] h-[700px] justify-between bg-white'>
+          <div className='flex flex-col w-[200px] h-[500px] justify-between bg-white'>
             <Image
               src={"/postimage.jpg"}
               alt='postimage'

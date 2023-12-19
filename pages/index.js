@@ -17,11 +17,11 @@ export default function Home() {
         fill
       />
       {/* background gradient */}
-      <div className='flex bg-gradient-to-t from-[#014755]'>
+      <div className='flex bg-gradient-to-t from-[#014755] w-screen h-screen'>
         <Sidebar />
-        <div className='flex flex-col w-11/12'>
+        <div className='flex flex-col w-10/12 sm:w-11/12 h-full'>
           <Navbar />
-          {/* <Content /> */}
+          <Content />
         </div>
       </div>
     </main>
