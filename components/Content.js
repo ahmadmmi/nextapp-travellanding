@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className='flex items-center h-full'>
+    <div className='flex items-center h-full mb-16'>
       {/* left content */}
       <div className='flex flex-col w-2/5 h-full justify-between items-center pl-20'>
         <div className='flex justify-end w-full mr-10'>
@@ -55,7 +55,7 @@ const Content = () => {
             </p>
           </div>
         </div>
-        <div className='flex mb-10 w-full'>
+        <div className='flex w-full'>
           <button className='flex justify-center space-x-6 items-center p-4 bg-[#00605f] w-1/2 '>
             <p className='text-xl font-bold'>BOOK NOW</p>
             <div className=' border rounded-full p-2 bg-white'>
@@ -72,8 +72,8 @@ const Content = () => {
         </div>
       </div>
       {/* right content */}
-      <div className='flex flex-col w-3/5 h-full justify-between items-center pl-20 pr-20'>
-        <div className='flex justify-end items-end mr-6 mb-14 space-x-2 h-[100px]'>
+      <div className='flex flex-col w-3/5 h-full justify-between pl-20 pr-20'>
+        <div className='flex justify-end items-center space-x-2 mt-32'>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
           <div className='w-0 h-0 border-t-[20px] border-t-transparent border-r-[40px] border-r-white border-b-[20px] border-b-transparent'></div>
@@ -83,7 +83,7 @@ const Content = () => {
 
         {/* post */}
         <div className='flex justify-between space-x-2'>
-          <div className='flex flex-col w-[200px] h-[500px] justify-between bg-white'>
+          <div className='flex flex-col w-[250px] h-[500px] justify-between bg-white'>
             <Image
               src={"/postimage.jpg"}
               alt='postimage'
@@ -113,7 +113,7 @@ const Content = () => {
               </div>
             </button>
           </div>
-          <div className='flex flex-col w-[200px] h-[500px] justify-between bg-white'>
+          <div className='flex flex-col w-[250px] h-[500px] justify-between bg-white'>
             <Image
               src={"/postimage.jpg"}
               alt='postimage'
@@ -143,7 +143,7 @@ const Content = () => {
               </div>
             </button>
           </div>
-          <div className='flex flex-col w-[200px] h-[500px] justify-between bg-white'>
+          <div className='flex flex-col w-[250px] h-[500px] justify-between bg-white'>
             <Image
               src={"/postimage.jpg"}
               alt='postimage'

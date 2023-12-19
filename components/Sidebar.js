@@ -13,7 +13,7 @@ const Sidebar = () => {
 
       <div className='border-x-4 border-white h-52 sm:h-80'></div>
 
-      <div className='flex flex-col justify-around items-center space-y-10 mb-12'>
+      <div className='flex flex-col justify-around items-center space-y-10 mb-20'>
         <Image
           src={"/twitter.png"}
           alt='twitter'
